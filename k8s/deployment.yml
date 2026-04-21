@@ -5,7 +5,7 @@ metadata:
   labels:
     app: gitops-app
 spec:
-  replicas: 2 # Chcemy mieć zawsze 2 kopie aplikacji dla bezpieczeństwa
+  replicas: 3 # Chcemy mieć zawsze 2 kopie aplikacji dla bezpieczeństwa
   selector:
     matchLabels:
       app: gitops-app
